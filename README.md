@@ -2,7 +2,7 @@
 
 Use Online Dictionary offline on Mac
 
-| Name                                   | Language        | Audios |
+| Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
 | Cambridge Dictionary                   | English-Chinese | |
 | Oxford Advanced Learner's Dictionary   | English-Chinese | |
