@@ -1,2 +1,3 @@
 # Mac-Dictionary
-bb
+
+Use Online Dictionary offline on Mac
