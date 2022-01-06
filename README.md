@@ -10,6 +10,6 @@ Use Online Dictionary offline on Mac
 | Oxford Collocation Dictionary          | English-English | |
 | Merriam-Webster's Dictionary           | English-English | |
 | Merriam-Webster's Learner's Dictionary | English-English | |
-| Merriam-Webster's Thesaurus.dictionary | English-English | |
+| Merriam-Webster's Thesaurus            | English-English | |
 
 
