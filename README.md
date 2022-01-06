@@ -1,4 +1,4 @@
-# Mac-Dictionary
+# Apple Dictionary
 
 Use Online Dictionary offline on Mac
 
