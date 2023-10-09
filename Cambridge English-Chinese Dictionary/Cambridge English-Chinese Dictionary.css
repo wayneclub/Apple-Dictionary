@@ -1,0 +1,1143 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html {
+  background: transparent !important;
+  margin-left: -0.5em !important;
+  -apple-color-filter: none !important;
+}
+
+body {
+  padding: 10px 0px;
+  color: black;
+  font-family: Helvetica, Arial, "Microsoft Yahei UI", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffff;
+  }
+}
+
+html.apple_client-panel body {
+  padding: 0px 5px;
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* 標題 */
+.headword {
+  color: #1d2a57;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 700;
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .headword {
+    color: #ffffff;
+  }
+}
+
+html.apple_client-panel .headword {
+  line-height: 1.2em;
+  position: relative;
+  top: -0.5em;
+}
+
+/* 詞性 */
+.pos-header .pos,
+.runon-head .pos {
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.75em;
+  text-align: center;
+  line-height: 1.8em;
+  background-color: #004ba0;
+  padding: 4px 7px;
+  border-radius: 50px;
+  margin-right: 6px;
+  position: relative;
+  pointer-events: none;
+  cursor: default;
+}
+
+html.apple_client-panel .pos-header .pos,
+html.apple_client-panel .runon-head .pos {
+  position: relative;
+  /* top: -0.5em; */
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .pos-header .pos,
+  .runon-head .pos {
+    color: #ffffff;
+    background-color: #4b77be;
+  }
+}
+
+/* 詞性特性 [] */
+.gram a {
+  color: #1d2a57;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gram a {
+    color: #f4d03f;
+  }
+}
+
+html.apple_client-panel .gram a {
+  line-height: 1.5em;
+  font-size: 12px;
+  margin: 0px;
+  position: relative;
+  top: -0.3em;
+}
+
+.gram+span {
+  margin-left: 8px;
+}
+
+.v+.gram {
+  margin-left: 5px;
+}
+
+.anc-info-head {
+  margin-right: 5px;
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .anc-info-head {
+    color: #dadfe1;
+  }
+}
+
+.hw::after {
+  content: " ";
+}
+
+/* 地區小字 */
+.region {
+  color: #1d2a57;
+  text-transform: uppercase;
+  font-size: 13px;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .region {
+    color: #f4d03f;
+  }
+}
+
+.region+.usage::before {
+  content: " ";
+}
+
+.pron+.region {
+  margin-left: 10px;
+}
+
+.sound {
+  margin-top: 0.4em;
+}
+
+/* 英式發音 */
+.region_uk {
+  text-transform: uppercase;
+  color: #1d2a57;
+  font-size: 14px;
+  font-weight: 700;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .region_uk {
+    color: #22a7f0;
+  }
+
+  .region_uk+img.speaker {
+    content: url("uk_pron_dark.png");
+  }
+}
+
+.irreg-infls+audio+.region_uk,
+.inf+audio+.region_uk,
+.inf+.region,
+.inf+.region_uk,
+.inf+.region_us,
+.domain+audio+.region_uk {
+  margin-left: 10px;
+}
+
+html.apple_client-panel .irreg-infls+audio+.region_uk,
+html.apple_client-panel .inf+audio+.region_uk,
+html.apple_client-panel .inf+.region,
+html.apple_client-panel .inf+.region_uk,
+html.apple_client-panel .inf+.region_us,
+html.apple_client-panel .domain+audio+.region_uk {
+  margin-left: 5px;
+}
+
+/* 美式發音 */
+.region_us {
+  text-transform: uppercase;
+  color: #a52a2a;
+  font-size: 14px;
+  font-weight: 700;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .region_us {
+    color: #ff6347;
+  }
+
+  .region_us+img.speaker {
+    content: url("us_pron_dark.png");
+  }
+}
+
+.pron+audio+.region_us {
+  margin-left: 10px;
+}
+
+html.apple_client-panel .pron+audio+.region_us {
+  margin-left: 0px;
+}
+
+/* 音標 */
+.pron {
+  display: inline-block;
+  margin: 0px 5px;
+  font-size: 1em;
+  font-weight: normal;
+  color: #1d2a57;
+}
+
+html.apple_client-panel .pron {
+  margin-right: 5px;
+  padding: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pron {
+    color: #c2c7c6;
+  }
+}
+
+/* 發音圖片 */
+img.speaker {
+  margin: 0em 0.3em -0.2em 0.3em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+html.apple_client-panel img.speaker {
+  display: none;
+}
+
+.pos a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.lab {
+  color: #1d2a57;
+  line-height: 1em;
+  font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .lab {
+    color: #dadfe1;
+  }
+}
+
+html.apple_client-panel .lab {
+  line-height: 1em;
+}
+
+a+.lab::before {
+  content: " ";
+}
+
+.domain~.lab::before {
+  content: "•";
+  margin-left: 3px;
+  margin-right: 8px;
+  color: #fdc702;
+  font-size: 18px;
+  vertical-align: -3px;
+}
+
+html.apple_client-panel .domain~.lab::before {
+  margin-left: 0px;
+  margin-right: 4px;
+  font-size: 12px;
+  vertical-align: 0px;
+}
+
+.spellvar {
+  color: #1d2a57;
+  line-height: 1em;
+}
+
+.spellvar::before {
+  content: "(";
+}
+
+.spellvar::after {
+  content: ")\a";
+  white-space: pre;
+}
+
+.lab+.spellvar::before {
+  content: " (";
+}
+
+@media (prefers-color-scheme: dark) {
+  .spellvar {
+    color: #dadfe1;
+  }
+}
+
+.spellvar .lab::after {
+  content: " ";
+}
+
+/* 發音補充 */
+.var {
+  color: #1d2a57;
+  line-height: 1em;
+  pointer-events: none;
+  cursor: default;
+}
+
+.var::before {
+  content: "(";
+}
+
+.var::after {
+  content: ")";
+}
+
+@media (prefers-color-scheme: dark) {
+  .var {
+    color: #dadfe1;
+  }
+}
+
+.var .lab::after {
+  content: " ";
+}
+
+.lab+.var::before {
+  content: " (";
+}
+
+.irreg-infls+.var {
+  margin-left: 5px;
+}
+
+.v {
+  font-weight: 700;
+  color: #1d2a57;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .v {
+    color: #dadfe1;
+  }
+}
+
+/* 發音強弱 */
+.pos-header .pron .lab {
+  color: #303030;
+  font-size: 0.85em;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pos-header .pron .lab {
+    color: #d2d7d3;
+  }
+}
+
+.inf {
+  font-weight: 700;
+}
+
+.inf-group {
+  color: #1d2a57;
+  margin: 5px 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .inf-group,
+  .inf {
+    color: #dadfe1;
+  }
+}
+
+/* 特性 ex:PLURAL, SPECIALIZED */
+.inf-group .lab,
+.lab .usage {
+  pointer-events: none;
+  cursor: default;
+}
+
+.lab .usage+.usage::before {
+  content: " ";
+}
+
+.inf-group .lab::after {
+  content: " ";
+}
+
+/* 定義區塊 */
+.def-head {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+/* A1 */
+a.cefr {
+  margin-right: 10px;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  background-color: rgb(29, 41, 86);
+  padding: 2px 6px;
+  border-radius: 50px;
+  line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  a.cefr {
+    color: #2c2b2a !important;
+    background-color: #f89406;
+  }
+}
+
+html.apple_client-panel .cefr {
+  position: relative;
+  top: -0.3em;
+  line-height: 1em;
+}
+
+/* 英文定義 */
+.en_def {
+  display: block;
+  margin-right: 10px;
+  margin-top: 0.2em;
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .en_def {
+    color: #ffffff;
+  }
+}
+
+/* 中文定義 */
+.cn_def {
+  display: block;
+  margin-top: 0.2em;
+  color: #00008B;
+  pointer-events: none;
+  cursor: default;
+  font-family: PingFangTC-Regular, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  .cn_def {
+    color: #ffffff;
+  }
+}
+
+.domain {
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  color: #1d2a57;
+  border: 1px solid #1d2a57;
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 2px;
+  margin-right: 5px;
+  pointer-events: none;
+  cursor: default;
+  line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .domain {
+    color: #6495ed;
+    border: 1px solid #6495ed;
+  }
+}
+
+html.apple_client-panel .domain {
+  padding: 2px;
+  margin-right: 2px;
+  position: relative;
+  top: -0.3em;
+}
+
+.entry-body__el:not(:first-of-type),
+.runon {
+  margin-top: 2em;
+}
+
+html.apple_client-panel .entry-body__el:not(:first-of-type),
+html.apple_client-panel .runon {
+  margin-top: 1.5em;
+}
+
+/* 更多例句 */
+.extraexamps {
+  margin-bottom: 10px;
+}
+
+html.apple_client-panel .extraexamps {
+  display: none;
+}
+
+/* 更多例句項目 */
+.extraexamps .en_example {
+  margin-left: 2em;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+/* 英文例句 */
+.en_example {
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.3em;
+  color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .en_example {
+    color: #AAAAAA;
+  }
+}
+
+.en_example a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.en_example a:hover {
+  text-decoration: underline;
+}
+
+/* 中文例句 */
+.cn_example {
+  margin-top: 5px;
+  margin-left: 2px;
+  font-weight: normal;
+  color: #0580e8;
+  display: block;
+  pointer-events: none;
+  cursor: default;
+  font-family: PingFangTC-Regular, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  .cn_example {
+    color: #d3d3d3;
+  }
+}
+
+/* 片語 */
+.phrase-block {
+  margin-top: 1em;
+}
+
+.phrase-title {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #234b9a;
+  cursor: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  .phrase-title {
+    color: #4b77be;
+  }
+}
+
+.phrase-head+.def-head {
+  border-top: 2px solid #fec400;
+}
+
+@media (prefers-color-scheme: dark) {
+  .phrase-head+.def-head {
+    border-top: 2px solid #9acd32;
+  }
+}
+
+
+a.phrase {
+  margin-right: 5px;
+}
+
+/* 與分隔線的距離 */
+.def-head {
+  padding-top: 10px;
+}
+
+.phrasal_verbs .item,
+.idioms .item,
+.derived_forms .item {
+  margin-left: 20px;
+}
+
+.phrasal_verbs .item a,
+.idioms .item a,
+.derived_forms .item a {
+  margin-bottom: 10px;
+  color: #1d2a57;
+  display: block;
+  font-weight: 700;
+}
+
+.phrasal_verbs .item a:hover,
+.idioms .item a:hover,
+.derived_forms .item a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .phrasal_verbs .item a,
+  .idioms .item a,
+  .derived_forms .item a {
+    color: #bebebe;
+  }
+}
+
+
+/* 粗體 */
+.b {
+  font-weight: 700;
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .b {
+    color: #FEFEFE;
+  }
+}
+
+a+.b:before {
+  content: " ";
+}
+
+.gloss+.b::before {
+  content: " ";
+}
+
+.gloss::before {
+  content: " ";
+}
+
+/* 多個字義 */
+.sense-block h3 {
+  color: #5d2fc1;
+  font-size: 13px;
+  border-bottom: 2px solid;
+  line-height: 1em;
+  font-weight: 700;
+  display: block;
+  pointer-events: none;
+  cursor: default;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.sense-block h3 .gram a {
+  color: #5d2fc1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sense-block h3 {
+    color: #9370db;
+  }
+
+  .sense-block h3 .gram a {
+    color: #9370db;
+  }
+}
+
+.sense-block .pos {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.sense-block .pos::after {
+  content: " ";
+  margin-right: 5px;
+}
+
+.sense-block .guideword::before {
+  content: "(";
+}
+
+.sense-block .guideword::after {
+  content: ")";
+}
+
+.phrase-head {
+  color: #1d2a57;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.phrase-info,
+.phrase-info .var,
+.phrase-info .region,
+.phrase-info .lab {
+  color: #1d2a57;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .phrase-head,
+  .phrase-info,
+  .phrase-info .var,
+  .phrase-info .region,
+  .phrase-info .lab {
+    color: #9acd32;
+  }
+
+  .phrase-info .var a {
+    color: #90EE90;
+  }
+}
+
+.phrase-info .gram a {
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .phrase-info .gram a {
+    color: #9acd32;
+  }
+}
+
+.phrase-info::before {
+  content: " ";
+}
+
+
+.cols__col,
+.extraexamps,
+.usagenote {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ffe797;
+  border-radius: 4px;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .cols__col,
+  .extraexamps,
+  .usagenote {
+    color: #f5d76e;
+  }
+}
+
+.extraexamps h3,
+.idioms h3,
+.phrasal_verbs h3,
+.derived_forms h3 {
+  background: #ffe797;
+  color: black;
+  padding: 10px 0px 10px 20px;
+  font-weight: 700;
+  font-size: 90%;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  pointer-events: none;
+  cursor: default;
+  border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .extraexamps h3,
+  .idioms h3,
+  .phrasal_verbs h3,
+  .derived_forms h3 {
+    color: #2c2b2a;
+    background: #f5d76e;
+  }
+}
+
+.def-head .trans::before {
+  content: " ";
+}
+
+/* 例句 */
+.example {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .example {
+    color: #a09f9f;
+  }
+}
+
+.example .lab::after {
+  content: " ";
+}
+
+.x {
+  margin-left: 5px;
+}
+
+a.ref {
+  color: #1d2a57;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  a.ref {
+    color: #bebebe;
+  }
+}
+
+.x-pos {
+  margin-left: 5px;
+}
+
+.x-num {
+  font-size: 0.95em;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+
+.en_def .lab,
+.en_def .lab .usage {
+  font-weight: 500;
+  margin: 0;
+}
+
+.en_def a {
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+  .en_def a {
+    color: #ffffff;
+  }
+}
+
+.my_phrase .headword {
+  display: block;
+}
+
+.my_phrase a {
+  color: #1d2a57;
+}
+
+.ipa .sp {
+  font-size: 75%;
+  position: relative;
+  bottom: 0.5em;
+}
+
+/* 參考 */
+.xref {
+  margin: 1em 0em;
+}
+
+.compare .xref-title,
+.opposite .xref-title,
+.synonym .xref-title,
+.see .xref-title,
+.see_also .xref-title {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #1d2a57;
+  line-height: 2em;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .compare .xref-title,
+  .opposite .xref-title,
+  .synonym .xref-title,
+  .see .xref-title,
+  .see_also .xref-title {
+    color: #939393;
+  }
+}
+
+.idiom-body .xref-title {
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.see_also {
+  margin-top: 1.5em;
+}
+
+.compare .item,
+.opposite .item,
+.synonym .item,
+.see .item,
+.see_also .item {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d2a57;
+  display: list-item;
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+.xref .item a {
+  display: inline;
+  text-decoration: underline;
+  color: #1d2a57;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .compare .item,
+  .opposite .item,
+  .synonym .item,
+  .see .item,
+  .see_also .item {
+    color: #bebebe;
+  }
+
+  .xref .item a {
+    color: #bebebe;
+  }
+}
+
+.idiom-body {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5d4037;
+  display: block;
+  margin-top: 1em;
+  pointer-events: none;
+  cursor: default;
+}
+
+.idiom-body a {
+  color: #321911;
+  text-decoration: underline;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idiom-body {
+    color: #939393;
+  }
+
+  .idiom-body a {
+    color: #bebebe;
+  }
+}
+
+.idiom-body .sense-block {
+  margin-top: -1.5em;
+}
+
+.lmt--5 {
+  margin-top: 6px;
+}
+
+html.apple_client-panel .lmt--5 {
+  margin-top: 2px;
+}
+
+/* 注意 */
+.usagenote .note_title {
+  background: #ffe797;
+  color: black;
+  padding: 10px 0px 10px 20px;
+  font-weight: 700;
+  font-size: 90%;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+.note {
+  color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .usagenote .note_title {
+    color: #2c2b2a;
+    background: #f5d76e;
+  }
+
+  .note {
+    color: #AAAAAA;
+  }
+}
+
+
+
+/*增加CEFR表格 A1 - C2*/
+
+h1.headword {
+  border-bottom: solid 1px #1d2a57;
+  color: #1d2a57;
+}
+
+h1.headword .chn {
+  color: #1d2a57;
+}
+
+h3.label {
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1.headword {
+    color: #ffffff;
+    border-bottom: solid 1px #e5e4e9;
+  }
+
+  h1.headword .chn {
+    color: #ffffff;
+  }
+
+  h3.label {
+    color: #fafafa;
+  }
+}
+
+.labels-table {
+  font-family: Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.labels-table th {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px;
+  background: #1d2a57;
+  border-collapse: collapse;
+  color: #ffffff;
+}
+
+.labels-table td {
+  padding: 10px;
+  color: #1d2a57;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.labels-table tr:hover td {
+  background: #1d2a57;
+  color: #eeeeee;
+}
+
+.labels-table tr {
+  background: #f5f5f5;
+}
+
+.labels-table tr:nth-child(even) {
+  background: #e0e0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .labels-table td {
+    color: #e0e0e0;
+  }
+
+  .labels-table tr:hover td {
+    background: #234b9a;
+  }
+
+  .labels-table tr {
+    background: #212121;
+  }
+
+  .labels-table tr:nth-child(even) {
+    background: #333333;
+  }
+}
+
+.chn {
+  font-family: PingFangTC-Regular, sans-serif;
+  font-size: 95%;
+  color: #00008B;
+}
+
+@media (prefers-color-scheme: dark) {
+  .chn {
+    color: #ffffff;
+  }
+}
+
+.labels-table tr:hover td .chn {
+  color: #ffffff;
+}

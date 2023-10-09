@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html {
+	background: transparent !important;
+	margin-left: -0.5em !important;
+	-apple-color-filter: none !important;
+}
+
+body {
+	color: black;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+html.apple_client-panel body {
+	padding: 0px 5px;
+}
+
+h1 {
+	display: none;
+}
+
+a {
+	color: #4a7d95;
+	text-decoration: underline;
+	text-decoration-color: #98becd;
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: #638bb3;
+		text-decoration-color: #5c97bf;
+	}
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.m3s {
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	.m3s {
+		color: #d3d3d3;
+	}
+}
+
+html.apple_client-panel .m3s {
+}
+
+/* 第二個單字間距 */
+.blr+.blr {
+	margin-top: 1em;
+}
+
+/* 標題 */
+.iye {
+	display: inline;
+	margin-right: 0.3em;
+	color: #303336;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+	.iye {
+		color: #ffffff;
+	}
+}
+
+html.apple_client-panel .iye {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+
+/* 小字 */
+.iye sup {
+	font-size: 0.4em;
+	font-weight: normal;
+	-webkit-user-select: none;
+}
+
+html.apple_client-panel .iye sup {
+	margin-left: 0px;
+	position: relative;
+	top: -2px;
+}
+
+/* 詞性 */
+.eyx {
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	font-size: 0.75rem;
+	text-align: center;
+	background-color: #2d5f7c;
+	padding: 4px 7px;
+	border-radius: 50px;
+	margin-left: 10px;
+	margin-right: 5px;
+	position: relative;
+	top: -0.5em;
+	pointer-events: none;
+	cursor: default;
+	display: inline;
+}
+
+@media (prefers-color-scheme: dark) {
+	.eyx {
+		background-color: #2a7ab0;
+	}
+}
+
+html.apple_client-panel .eyx {
+	position: relative;
+	top: -2px;
+	margin-left: 5px;
+}
+
+.jk6 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+html.apple_client-panel .jk6 {
+	margin-top: -0.5em;
+}
+
+/* 數字 */
+.n6n {
+	color: #212529;
+	letter-spacing: -1.5px;
+	position: absolute;
+	left: -1.5em;
+	font-weight: 700;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.n6n {
+		color: #939393;
+	}
+}
+
+.j1b+.j1b {
+	margin-top: 1em;
+}
+
+.m3s .j1b .muj {
+	margin-left: 1.5em;
+	counter-reset: efi;
+	position: relative;
+}
+
+/* 解釋 */
+.ltr {
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ltr {
+		color: #ffffff;
+	}
+}
+
+/* 例句 */
+.zz0 {
+	display: block;
+	color: #4a7d95;
+	letter-spacing: 0.5px;
+	margin-left: 1em;
+	position: relative;
+}
+
+@media (prefers-color-scheme: dark) {
+	.zz0 {
+		color: #abb7b7;
+	}
+}
+
+.zz0 em {
+	color: #4a7d95;
+}
+
+@media (prefers-color-scheme: dark) {
+	.zz0 em {
+		color: #34b9db;
+	}
+}
+
+.zz0 q:before {
+	content: "\2022";
+	color: #303336;
+	position: absolute;
+	left: -1.1em;
+	width: 0.5em;
+	padding-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.zz0 q:before {
+		color: #808080;
+	}
+}
+
+h2 {
+	color: #265667;
+	line-height: 22px;
+	letter-spacing: normal;
+	margin-bottom: 0.5rem;
+	padding: 0;
+	font-size: 1.1em;
+	font-weight: 700;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	h2 {
+		color: #d3d3d3;
+	}
+}
+
+html.apple_client-panel h2 {
+	color: #67809f;
+	margin: 0.1em 0;
+}
+
+/* 粗體字 */
+b.hfo {
+	color: #212529;
+	font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+	b.hfo {
+		color: #ffffff;
+	}
+}
+
+.lcw {
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+/* 斜體 */
+.bld em,
+em.hcs {
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.bld em,
+	em.hcs {
+		color: #d3d3d3;
+	}
+}
+
+a+.bld,
+em+a,
+em+a+em {
+	margin-left: 5px;
+}
+
+html.apple_client-panel a+.bld,
+html.apple_client-panelem+a,
+html.apple_client-panelem+a+em {
+	margin: 0px;
+}
+
+br {
+	display: block;
+	content: "";
+	margin: 10px 0 0;
+}
+
+html.apple_client-panel br {
+	margin: 5px 0 0;
+}

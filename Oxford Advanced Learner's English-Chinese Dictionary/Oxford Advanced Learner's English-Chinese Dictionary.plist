@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>OxfordAdvancedLearner'sEnglish-ChineseDictionary</string>
+	<key>CFBundleDisplayName</key>
+	<string>牛津高阶英汉双解词典(第9版)</string>
+	<key>CFBundleName</key>
+	<string>Oxford Advanced Learner's English-Chinese Dictionary</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>.</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>.</string>
+	<key>DCSDictionaryXSL</key>
+	<string></string>
+	<key>DCSDictionaryDefaultPrefs</key>
+	<dict>
+		
+	</dict>
+	<key>DCSDictionaryPrefsHTML</key>
+	<string></string>
+	
+</dict>
+</plist>

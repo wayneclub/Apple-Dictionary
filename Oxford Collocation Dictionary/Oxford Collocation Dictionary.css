@@ -1,0 +1,305 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html {
+	background: transparent !important;
+	-apple-color-filter: none !important;
+	overflow-y: auto;
+}
+
+body {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color: #333333;
+	margin: 1rem;
+}
+
+html.apple_client-panel body {
+	padding: 0px 5px;
+}
+
+h1 {
+	display: none;
+}
+
+/* 標題 */
+h1.headword {
+	font-size: 2.125rem;
+	display: inline-block;
+	margin: 0rem 0rem 0rem 0rem;
+	color: #1A3561;
+	line-height: 2.625rem;
+}
+
+
+@media (prefers-color-scheme: dark) {
+
+	h1.headword {
+		color: #ffffff;
+	}
+}
+
+
+/* 詞性 */
+.pos {
+	color: #333333;
+	display: inline-block;
+	font-size: 1.1rem;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0rem 0rem 0rem 0.25rem;
+	pointer-events: none;
+	touch-action: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	.pos {
+		color: #9f9f9f;
+	}
+}
+
+sup {
+	font-size: 0.5em;
+	margin-left: 0.2em;
+}
+
+@media (prefers-color-scheme: dark) {
+	sup {
+		color: #c2c7c6;
+	}
+}
+
+sl-g-list {
+	display: none;
+}
+
+sl-g-head {
+	background-color: #009FD4;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	border-radius: 50px;
+	padding: 0px 15px;
+	display: block;
+	color: #ffffff;
+	line-height: 1.5rem;
+	font-size: 14px;
+	margin: 0.5em 0em;
+}
+
+@media (prefers-color-scheme: dark) {
+	sl-g-head {
+		background-color: #3477DB;
+	}
+}
+
+chn {
+	margin-left: 5px;
+	font-family: PingFangTC-Regular, sans-serif;
+}
+
+/* 英文定義 */
+.def {
+	font-size: 1.125rem;
+	color: #3455DB;
+	border-bottom: 0.0625rem solid #3455DB;
+	line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.def {
+		color: #00BFFF;
+		border-bottom: 0.0625rem solid #009FD4;
+	}
+}
+
+.def chn {
+	font-size: 0.9em;
+}
+
+/* 解釋 */
+sb-g {
+	display: block;
+	line-height: 1.6em;
+	color: #1d2a57;
+	font-size: 1.1em;
+}
+
+@media (prefers-color-scheme: dark) {
+	sb-g {
+		color: #ffffff;
+	}
+}
+
+/* 項目符號 */
+sb-g:before {
+	content: "\2022";
+	color: #1171b2;
+	font-size: 1em;
+	padding-right: .35em;
+	position: relative;
+	font-style: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+	sb-g:before {
+		color: #c2c7c6;
+	}
+}
+
+sb-g chn {
+	font-size: 90%;
+}
+
+x-blk {
+	display: block;
+	margin-left: 0.7em;
+	margin-bottom: 0.5em;
+}
+
+
+/* 例句 */
+x-blk x {
+	color: #36363c;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1.5em;
+	font-size: 85%;
+	display: table-cell;
+}
+
+@media (prefers-color-scheme: dark) {
+	x-blk x {
+		color: #a09f9f;
+	}
+}
+
+/* 中文例句 */
+x-blk x chn {
+	color: #444444;
+	font-size: 92.5%;
+	font-style: normal;
+	display: block;
+	margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	x-blk x chn {
+		color: #d3d3d3;
+	}
+}
+
+
+
+g-blk {
+	color: #333333;
+}
+
+brelabel,
+namelabel {
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	g-blk {
+		color: #D3D3D3;
+	}
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+q,
+s,
+label {
+	font-weight: normal;
+	color: #7c7c7c;
+}
+
+tm {
+	font-size: 1.5em;
+	color: #003866;
+	vertical-align: 30%;
+}
+
+hm {
+	font-size: 1.12em;
+	vertical-align: 60%;
+	color: #003866;
+}
+
+xh {
+	color: #de002d;
+	font-weight: bold;
+}
+
+arrow {
+	color: #de002d;
+}
+
+boxtag {
+	background-color: #808080;
+	color: white;
+	font-family: Verdana;
+	font-variant: small-caps;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 3mm;
+	padding-left: 0.25mm;
+	padding-right: 0.5mm;
+}
+
+n-g {
+	font-weight: normal;
+	color: black;
+}
+
+unbox,
+un {
+	color: black;
+	display: block;
+	font-size: 12pt;
+	line-height: 18pt;
+	padding-left: 8pt;
+	padding-right: 8pt;
+	padding-bottom: 8pt;
+	padding-top: 8pt;
+	-webkit-touch-callout: none;
+	margin: 8pt;
+	margin-bottom: 16pt;
+	border-style: solid;
+	border-width: 3px;
+}
+
+cl-g>cl-blk:first-of-type {
+	margin-top: .8rem;
+}
+
+
+
+g>a {
+	color: #7c7c7c;
+}
+
+cl-blk {
+	display: block;
+}
+
+un heading {
+	margin-bottom: 1em;
+}
+
+un chn {
+	font-weight: normal;
+}

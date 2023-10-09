@@ -1,0 +1,969 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html {
+  background: transparent !important;
+  -apple-color-filter: none !important;
+  margin-left: -0.1em !important;
+}
+
+body {
+  color: black;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  padding: 10px 0px;
+}
+
+html.apple_client-panel body {
+  padding: 0px 4px;
+  margin-top: -0.5em;
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  color: #3692A4;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #dadfe1;
+  }
+}
+
+.all-entry {
+  margin-left: -8px;
+  margin-top: -8px;
+  margin-bottom: 1.5em;
+  line-height: 1.15em;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html.apple_client-panel .all-entry {
+  margin-left: 0px;
+  font-size: 14px;
+  line-height: 95%;
+}
+
+
+/*不同的詞性區整體*/
+.entry_v2 {
+  margin-top: 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+
+  /*不同的詞性區整體*/
+  .entry_v2 {
+    margin-top: 0em;
+  }
+}
+
+.entry_v2:first-child {
+  margin-top: 0;
+}
+
+
+/*標題區*/
+.hw_d {
+  line-height: 1.5em;
+  margin-top: 5px;
+}
+
+
+/*小數字*/
+sup {
+  font-size: 50%;
+  margin-left: 0.2em;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+  sup {
+    color: #a09f9f;
+  }
+}
+
+/*標題單詞*/
+.hw_txt {
+  color: #0f3850;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-left: -0.1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hw_txt {
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hw_txt {
+    line-height: 1em;
+  }
+}
+
+.hw_d>.hw_txt {
+  position: relative;
+  left: 0.15em;
+}
+
+
+/*音標*/
+.pron_w,
+.hpron_word {
+  margin-left: 0.1em;
+  margin-right: 0.3em;
+  color: #225f73;
+  font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .pron_w,
+  .hpron_word {
+    color: #c2c7c6;
+  }
+}
+
+html.apple_client-panel .pron_w,
+html.apple_client-panel .hpron_word {
+  margin-left: 0em;
+  margin-right: 0.2em;
+}
+
+.pron_l_a,
+.pron_l_b,
+.hpron_label_a {
+  color: #303030;
+  margin-right: 5px;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .pron_l_a,
+  .pron_l_b,
+  .hpron_label_a {
+    color: #aaaaaa;
+  }
+}
+
+.hw_d>.hpron_word {
+  position: relative;
+  top: -0.1em;
+}
+
+
+/*發音圖示*/
+img.speaker {
+  padding: 0.8em 0.8em;
+  background-size: 1.25em;
+  background-image: url("sound.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+  position: relative;
+  top: 0.3em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  img.speaker {
+    background-image: url("sound_dark.png");
+  }
+}
+
+html.apple_client-panel img.speaker {
+  display: none;
+}
+
+/* or */
+.hw_vars_d {
+  position: relative;
+  top: -0.5em;
+  margin-bottom: 0.5em;
+}
+
+html.apple_client-panel .hw_vars_d {
+  position: relative;
+  top: 0.1em;
+  margin-bottom: 1.2em;
+}
+
+/*詞性*/
+.fl {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #265667;
+  padding: 4px 7px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .fl {
+    color: #ffffff;
+    background-color: #008b8b;
+  }
+}
+
+.hw_d>.fl {
+  position: relative;
+  top: -0.3em;
+}
+
+.v_label {
+  color: #777777;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .v_label {
+    color: #dadfe1;
+  }
+}
+
+html.apple_client-panel .v_label {
+  margin-right: 0px;
+}
+
+/* 片語 */
+.v_text {
+  color: #225f73;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .v_text {
+    color: #ffffff;
+  }
+}
+
+
+/* 單詞變形區 plural, -ing, -ed */
+.hw_infs_d {
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+  position: relative;
+  top: -0.5em;
+}
+
+html.apple_client-panel .hw_infs_d {
+  margin-top: 0.7em;
+}
+
+.i_label {
+  color: #777777;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .i_label {
+    color: #d3d3d3;
+  }
+}
+
+html.apple_client-panel .i_label {
+  margin-right: 0px;
+}
+
+/* 專業分類 */
+
+.sl,
+.ssla {
+  font-size: 0.85em;
+  font-weight: bold;
+  font-style: normal;
+  color: #1d2a57;
+  margin-right: 10px;
+  position: relative;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .sl,
+  .ssla {
+    color: #d3d3d3;
+  }
+}
+
+/* 動詞變化 */
+.i_text,
+.comma {
+  color: #4a7d95;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.i_text .comma {
+  margin-right: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .i_text,
+  .comma {
+    color: #34B9DB;
+  }
+}
+
+html.apple_client-panel .i_text {
+  margin-right: 0px;
+}
+
+html.apple_client-panel .comma {
+  margin-right: 5px;
+}
+
+.labels {
+  margin-bottom: 0.7em;
+}
+
+html.apple_client-panel .labels {
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+
+/*某詞性下1，2，3...區整體*/
+.sblocks {
+  margin-top: 0.1em;
+}
+
+
+/*1，2，3...區個體*/
+.sblock {
+  margin-top: 0.9em;
+  line-height: 1.5em;
+}
+
+.sblock:first-child {
+  margin-top: 0;
+}
+
+
+/*多義前的數字*/
+.sn_block_num {
+  float: left;
+  color: #005662;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sn_block_num {
+    color: #bdc3c7;
+  }
+}
+
+.sn_letter {
+  color: #00838f;
+  margin-right: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sn_letter {
+    color: #bdc3c7;
+  }
+}
+
+.slb {
+  color: #303030;
+}
+
+@media (prefers-color-scheme: dark) {
+  .slb {
+    color: #dadfe1;
+  }
+}
+
+.slb::after {
+  content: " ";
+}
+
+.bnote {
+  font-weight: 700;
+  margin-right: 10px;
+  color: #225f73;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bnote {
+    color: #ffffff;
+  }
+}
+
+/* [] */
+.gram,
+.sgram,
+.wsgram {
+  color: #1d2a57;
+  font-size: 0.85em;
+  margin-right: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .gram,
+  .sgram,
+  .wsgram {
+    color: #F4D03F;
+  }
+}
+
+html.apple_client-panel .gram,
+html.apple_client-panel .sgram,
+html.apple_client-panel .wsgram {
+  margin-right: 0px;
+}
+
+/*同義字*/
+a.isyn_link,
+a.synref_link,
+a.synpar_w {
+  text-transform: uppercase;
+  color: #303f9f;
+  text-decoration: underline;
+  text-decoration-color: #1565c0;
+  font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  a.isyn_link,
+  a.synref_link,
+  a.synpar_w {
+    color: #1e90ff;
+    text-decoration-color: #22a7f0;
+  }
+}
+
+a.isyn_link sup,
+a.synref_link sup,
+a.synpar_w sup{
+  display:inline-block;
+  text-decoration:none;
+}
+
+.synpar_part {
+  line-height: 2em;
+  color: #0f3850;
+}
+
+.syn_par_t::before {
+  content: " ";
+}
+
+.syn_par_t,
+.synpar_p {
+  font-size: 1.05em;
+  color: #0f3850;
+  margin-right: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .synpar_part,
+  .syn_par_t,
+  .synpar_p {
+    color: #ffffff;
+  }
+}
+
+.synref_h1 {
+  font-weight: 700;
+  color: #444444;
+  pointer-events: none;
+  cursor: default;
+}
+
+.synref_h2 {
+  line-height: 2em;
+  font-size: 0.8em;
+  color: #444444;
+  pointer-events: none;
+  cursor: default;
+}
+
+.synref_h2::before {
+  content: " ";
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .synref_h1,
+  .synref_h2 {
+    color: #FEFEFE;
+  }
+}
+
+
+/*a,b,c...區整體*/
+.scnt {
+  overflow: hidden;
+}
+
+
+/*a,b,c...區個體*/
+.sense {
+  margin-top: 0.6em;
+  color: #303030;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sense {
+    color: #d3d3d3;
+  }
+}
+
+/*a,b,c...區個體*/
+.sense:nth-child(2) {
+  margin-top: 0;
+}
+
+
+/*ul例句區*/
+.collapsed {
+  margin-top: 0.06em;
+  margin-bottom: 0em;
+  padding-left: 1.1em;
+  list-style: none;
+}
+
+li::before {
+  content: "\2022";
+  color: #3692A4;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
+  padding-right: 0.35em;
+}
+
+@media (prefers-color-scheme: dark) {
+  li::before {
+    color: #a09f9f;
+  }
+}
+
+/*例句個體*/
+.vi,
+.both_text {
+  color: #444;
+  line-height: 1.5em;
+  font-size: 1.02em;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .vi,
+  .both_text {
+    color: #c8c8c9;
+  }
+}
+
+.cl {
+  color: #444;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .cl {
+    color: #dadfe1;
+  }
+}
+
+.both_text {
+  margin-top: 15px;
+  line-height: 1.7em;
+}
+
+.vi_content {
+  line-height: 2em;
+  display: inline;
+}
+
+.vi_content a,
+.both_text a {
+  color: inherit;
+  text-decoration: none;
+  padding-right: 5px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+.vi_content a:hover,
+.both_text a:hover {
+  text-decoration: underline;
+}
+
+.dx {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* -see also; -often */
+.dxs,
+.cxs,
+.cas,
+.un_text {
+  line-height: 2em;
+  font-size: 0.8em;
+  display: block;
+  color: #303030;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .dxs,
+  .cxs,
+  .cas,
+  .un_text {
+    color: #939393;
+  }
+}
+
+.sense .un_text {
+  line-height: 1.5em;
+  font-size: 0.95em;
+  display: block;
+  color: #0f3850;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .sense .un_text  {
+    color: #ffffff;
+  }
+}
+
+.sn_letter+.un_text {
+  display: inline-block;
+}
+
+.rsl,
+.hsl,
+.ca_prefix,
+.ca_text {
+  color: #303030;
+  font-style: italic;
+}
+
+.rsl,
+.hsl {
+  margin-right: 10px;
+}
+
+@media (prefers-dark-interface) {
+
+  .rsl,
+  .hsl,
+  .ca_prefix,
+  .ca_text {
+    color: #c2c7c6;
+  }
+}
+
+.ca_prefix::before,
+.ca_text::before {
+  content: " ";
+}
+
+.hsl {
+  position: relative;
+  top: -4px;
+}
+
+/* 跳轉連結 */
+a.dx_link,
+a.cx_link {
+  color: #1122CC;
+  font-size: 1em;
+  pointer-events: all;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  a.dx_link,
+  a.cx_link {
+    color: #6495ED;
+  }
+}
+
+a.dx_link:hover,
+a.cx_link:hover {
+  text-decoration: underline;
+}
+
+a.dx_link+sup,
+a.cx_link+sup {
+  color: #607d8b;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  a.dx_link+sup,
+  a.cx_link+sup {
+    color: #bebebe;
+  }
+}
+em {
+  font-style: normal;
+}
+
+/*例句中的強調單詞*/
+em.mw_spm_it {
+  color: #0097A7;
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  em.mw_spm_it {
+    color: #34B9DB;
+  }
+
+  .un_text .mw_spm_it {
+    color: #bebebe;
+  }
+}
+
+/*例句中的片語*/
+.mw_spm_phrase {
+  font-weight: bold;
+  color: #225f73;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mw_spm_phrase {
+    color: #00b5b5;
+  }
+}
+
+
+/*片語區*/
+.dros {
+  margin-top: 0.5em;
+}
+
+
+/*片語個體*/
+.dro {
+  margin-top: 0.5em;
+}
+
+
+/*片語個體*/
+.dro:first-child {
+  margin-top: 0;
+}
+
+
+/*1，2，3...區個體*/
+.sblock_dro {
+  margin-top: 0.35em;
+}
+
+.sblock_dro:first-child {
+  margin-top: 0;
+}
+
+.sblock_dro>.sblock_c>.scnt>.sense {
+  margin-top: 0.2em;
+}
+
+h2.dre {
+  line-height: 1.8em;
+  font-size: 1.1em;
+}
+
+html.apple_client-panel .dre {
+  margin-left: 0;
+}
+
+/*片語*/
+.dre,
+.pva {
+  font-size: inherit;
+  font-weight: 700;
+  display: inline;
+  color: #00838F;
+  margin-right: 10px;
+}
+
+@media (prefers-dark-interface) {
+
+  .dre,
+  .pva {
+    color: #00aaaa;
+  }
+}
+
+.pvl {
+  color: #303030;
+  margin-right: 10px;
+}
+
+@media (prefers-dark-interface) {
+  .pvl {
+    color: #FEFEFE;
+  }
+}
+
+
+.uros {
+  margin-top: 1em;
+}
+
+.uro {
+  margin-top: 1em;
+}
+
+/*片語個體*/
+.uro:first-child {
+  margin-top: 0;
+}
+
+html.apple_client-panel .uro {
+  line-height: 1.5em;
+}
+
+.ure {
+  font-size: 1.1em;
+  display: inline;
+  margin-right: 10px;
+  color: #303030;
+}
+
+@media (prefers-dark-interface) {
+  .ure {
+    color: #FEFEFE;
+  }
+}
+
+.def_text {
+  line-height: 1.5em;
+  font-size: 1.05em;
+  color: #0f3850;
+  margin-right: 5px;
+}
+
+.bc {
+  color: #303030;
+  margin-right: 5px;
+}
+
+.bc::after {
+  content: " ";
+}
+
+@media (prefers-color-scheme: dark) {
+  .bc {
+    color: #c8c8c9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .def_text {
+    color: #ffffff;
+  }
+}
+
+.lb {
+  font-style: italic;
+  line-height: 2em;
+  color: #303030;
+}
+
+.lb::after {
+  content: " ";
+}
+
+@media (prefers-color-scheme: dark) {
+  .lb {
+    color: #a09f9f;
+  }
+}
+
+.snote,
+.snotebox {
+  color: #303030;
+  margin-top: 0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .snote,
+  .snotebox {
+    color: #a09f9f;
+  }
+}
+
+.snote_text {
+  line-height: 1.5em;
+}
+
+/* 圖片 */
+.arts {
+  padding: 2em 1em;
+}
+
+@media (prefers-dark-interface) {
+  .art {
+    padding: 2px;
+    background: #383838;
+    border-radius: 10px;
+    border: 1px solid #777777;
+    display: inline-block;
+  }
+
+  img.boxy {
+    padding: 1em;
+    background: white;
+    border: 1px solid #565656;
+    border-radius: 10px;
+  }
+}
+
+.note::before {
+  content: "\271D";
+  color: #00ACC1;
+  margin-right: 5px;
+}
+
+.sd {
+  font-style: italic;
+}
+
+.sd::after {
+  content: " ";
+}
