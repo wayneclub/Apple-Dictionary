@@ -1,0 +1,1183 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+html {
+	background: transparent !important;
+	-apple-color-filter: none !important;
+	margin-left: -0.5em !important;
+}
+
+body {
+	color: black;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+html.apple_client-panel body {
+	padding: 0px 5px;
+}
+
+a {
+	color: #4a7d95;
+	text-decoration: underline;
+	text-decoration-color: #98becd;
+}
+
+@media (prefers-color-scheme: dark) {
+	a {
+		color: #638bb3;
+		text-decoration-color: #5c97bf;
+	}
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol,
+ul {
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%
+}
+
+li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+h1 {
+	display: none;
+}
+
+h2 {
+	color: #265667;
+	font-size: 1.3em;
+	font-weight: 700;
+	pointer-events: none;
+	cursor: default;
+	margin-bottom: 0.4em;
+}
+
+@media (prefers-color-scheme: dark) {
+	h2 {
+		color: #67809f;
+	}
+}
+
+html.apple_client-panel h2 {
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+i {
+	color: #4a7d95;
+}
+
+@media (prefers-color-scheme: dark) {
+	i {
+		color: #34b9db;
+	}
+
+	h2 i {
+		color: #89c4f4;
+	}
+}
+
+
+em {
+	font-style: italic;
+}
+
+b {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+p {
+	line-height: 1.3em;
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	p {
+		color: #a9a9a9;
+	}
+}
+
+cite {
+	display: block;
+	color: #777;
+	padding-left: 1em;
+	font-size: 0.8em;
+}
+
+@media (prefers-color-scheme: dark) {
+	cite {
+		color: #7e7e7e;
+	}
+}
+
+html.apple_client-panel cite {
+	margin-top: 0;
+}
+
+cite i {
+	color: #777;
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	cite i {
+		color: #7e7e7e;
+	}
+}
+
+sup {
+	font-size: 0.6em;
+}
+
+.main-container {
+	clear: both;
+	line-height: 1.2em;
+}
+
+.entry-header {
+	margin-top: -0.5em;
+}
+
+/* 標題 */
+h1.hword {
+	color: #0f3850;
+	font-size: 2em;
+	font-weight: 700;
+	font-family: Arial, sans-serif;
+	line-height: 1em;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+	h1.hword {
+		color: #ffffff;
+	}
+}
+
+html.apple_client-panel h1.hword {
+	font-size: 1.5em;
+	margin-top: 0;
+	line-height: 1.2em;
+}
+
+/*標題後的小數字*/
+.entry-header sup {
+	color: #005662;
+	font-size: 0.8em;
+	margin-left: 2px;
+	position: relative;
+	top: -8px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.entry-header sup {
+		color: #a9a9aa;
+	}
+}
+
+html.apple_client-panel .entry-header sup {
+	margin-left: 0px;
+	position: relative;
+	top: -2px;
+}
+
+
+/* 詞性 */
+.fl {
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	font-size: 0.75rem;
+	text-align: center;
+	background-color: #2d5f7c;
+	padding: 4px 7px;
+	border-radius: 50px;
+	margin-left: 10px;
+	margin-right: 5px;
+	position: relative;
+	top: -0.5em;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.fl {
+		background-color: #2a7ab0;
+	}
+}
+
+html.apple_client-panel .fl {
+	position: relative;
+	top: -2px;
+}
+
+/* 單字特性 */
+.lbs {
+	margin-left: 10px;
+	display: inline;
+	color: #4a7d95;
+}
+
+@media (prefers-color-scheme: dark) {
+	.lbs {
+		color: #d4d4d4;
+	}
+}
+
+html.apple_client-panel .lbs {
+	margin-left: 0px;
+}
+
+.lbs::after {
+	content: "\a";
+	white-space: pre;
+}
+
+.lbs em {
+	font-style: normal;
+}
+
+.lbs::before {
+	content: ", ";
+}
+
+
+/* 音節 */
+.syllable,
+.syl-break {
+	color: #225f73;
+	margin-right: 10px;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.syllable,
+	.syl-break {
+		color: #91a6ba;
+	}
+}
+
+.syllable em:before {
+	font-style: normal;
+	content: "\0B7";
+}
+
+/* 音標 */
+.prons {
+	margin-right: 0.5em;
+	color: #225f73;
+	font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.prons {
+		color: #91a6ba;
+	}
+}
+
+html.apple_client-panel .prons {
+	margin-right: 0em;
+}
+
+.prons em {
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.nsv+em {
+	color: #225f73;
+	margin-right: 0.5em;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.nsv+em {
+		color: #d3d3d3;
+	}
+}
+
+/* 發音按鈕 */
+img.nsv {
+	height: 1.2em;
+	cursor: pointer;
+	margin-right: 10px;
+	position: relative;
+	top: 0.25em;
+}
+
+@media (prefers-color-scheme: dark) {
+	img.nsv {
+		content: url("sp_dark.png");
+	}
+}
+
+html.apple_client-panel .nsv {
+	display: none;
+}
+
+.entry-attr {
+	margin-top: 5px;
+	color: #225f73;
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	.entry-attr {
+		color: #d3d3d3;
+	}
+}
+
+.entry-attr::before {
+	content: "variants: ";
+	font-style: normal;
+}
+
+.entry-attr .bnu {
+	font-weight: 700;
+	font-style: normal;
+}
+
+.entry-attr .prons {
+	margin-left: 10px;
+	font-style: normal;
+}
+
+.iqw {
+	color: #225f73;
+	display: block;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.iqw {
+		color: #5C97BF;
+	}
+}
+
+.iqw .bnu {
+	font-weight: 700;
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	.iqw .bnu {
+		color: #5C97BF;
+	}
+}
+
+.iqw em {
+	margin-right: 10px;
+	font-style: italic;
+}
+
+html.apple_client-panel .iqw em {
+	margin-right: 0px;
+}
+
+.iqw .bnu+em {
+	margin-left: 10px;
+}
+
+html.apple_client-panel .iqw .bnu+em {
+	margin-left: 0px;
+}
+
+.iqw .prons {
+	margin-left: 10px;
+}
+
+html.apple_client-panel .iqw .prons {
+	margin-left: 0px;
+}
+
+.rhj {
+	color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	.rhj {
+		color: #aaaaaa;
+	}
+}
+
+.rhj .prons {
+	margin-left: 5px;
+}
+
+.gmw {
+	padding: 1em 0em;
+}
+
+@media (prefers-dark-interface) {
+	.gmw {
+		padding: 2px;
+		background: #383838;
+		border-radius: 10px;
+		border: 1px solid #777777;
+		display: inline-block;
+	}
+
+	.gmw img {
+		padding: 1em;
+		background: white;
+		border: 1px solid #565656;
+		border-radius: 10px;
+	}
+}
+
+.verb-type {
+	margin-top: 1em;
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+
+/* 及物&不及物動詞 */
+.verb-type em {
+	font-size: 1em;
+	color: #265667;
+	border-radius: 5px;
+	pointer-events: none;
+	text-decoration: underline;
+	line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.verb-type em {
+		color: #F5D76E;
+	}
+}
+
+.npf {
+	margin-top: 0.4em;
+}
+
+/* 定義 */
+.def-item {
+	line-height: 1.8em;
+	font-size: 1em;
+	color: #0f3850;
+	margin-left: 23px;
+}
+
+.auc {
+	line-height: 1.8em;
+	font-size: 1em;
+	color: #0f3850;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.def-item,
+	.auc {
+		color: #ffffff;
+	}
+}
+
+html.apple_client-panel .def-item {
+	word-break: break-word;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+p.ohk .block {
+	display: block;
+	line-height: 1.8em;
+	margin-top: 0px;
+	color: #0f3850;
+	position: relative;
+	top: -0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	p.ohk .block {
+		color: #ffffff;
+	}
+}
+
+/* 同義字 */
+a.synonym,
+.dx-jump~a,
+.wqx~a,
+.vzp a {
+	text-transform: uppercase;
+	color: #283593;
+	text-decoration: underline;
+	text-decoration-color: #1565c0;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	a.synonym,
+	.dx-jump~a,
+	.wqx~a,
+	.vzp a {
+		color: #1e90ff;
+		text-decoration-color: #22a7f0;
+	}
+}
+
+.def-item .block {
+	line-height: 1.8em;
+	position: relative;
+	left: 5px;
+	word-wrap: break-word;
+}
+
+html.apple_client-panel .def-item .block {
+	position: relative;
+	left: 0px;
+	margin-left: -20px;
+}
+
+.def-item .letter+.block {
+	position: relative;
+	left: 30px;
+}
+
+html.apple_client-panel .def-item .letter+.block {
+	position: relative;
+	left: 0px;
+}
+
+.auc .letter+.block {
+	position: relative;
+	left: 45px;
+}
+
+html.apple_client-panel .auc .letter+.block {
+	position: relative;
+	left: 5px;
+}
+
+
+.def-item .block::after {
+	content: "\a";
+	white-space: pre;
+	line-height: 0px;
+}
+
+.auc .block::after {
+	content: "\a";
+	white-space: pre;
+	line-height: 5px;
+}
+
+/* 解釋 ex: 1 */
+.num {
+	float: left;
+	color: #005662;
+	font-size: 1em;
+	font-weight: 700;
+	position: relative;
+	top: 5px;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.num {
+		color: #939393;
+	}
+}
+
+html.apple_client-panel .num {
+	line-height: 1.5em;
+}
+
+/* 解釋 ex: a */
+.letter {
+	color: #225f73;
+	font-weight: 700;
+	margin-right: -15px;
+	position: relative;
+	left: 5px;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.letter {
+		color: #aaaaaa;
+	}
+}
+
+html.apple_client-panel .letter {
+	line-height: 1.2em;
+	margin-right: 0px;
+	position: relative;
+	left: -20px;
+}
+
+.auc .letter {
+	left: 0px;
+	margin-right: -35px;
+}
+
+html.apple_client-panel .auc .letter {
+	position: relative;
+	left: 2px;
+}
+
+
+/* 解釋 ex: (1) */
+.sub-num {
+	color: #34515e;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.sub-num {
+		color: #bfbfbf;
+	}
+}
+
+.sub-num::before {
+	content: "\a";
+	white-space: pre;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.letter+.block .sub-num:first-child::before {
+	content: "";
+	line-height: 0;
+	margin-left: 2px;
+}
+
+html.apple_client-panel .letter+.block .sub-num:first-child::before {
+	position: relative;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+.sub-num::after {
+	content: " ";
+}
+
+.dt-text {
+	position: relative;
+	left: 30px;
+	margin-left: -25px;
+}
+
+
+/* 冒號 */
+.gmb {
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+	color: #303336;
+	margin-right: 5px;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.gmb {
+		color: #bfbfbf;
+	}
+}
+
+html.apple_client-panel.gmb {
+	margin-right: 0;
+	position: relative;
+}
+
+.gmb::after {
+	content: " ";
+}
+
+.sub-num+.gmb {
+	margin-left: 4px;
+}
+
+.wqx+.gmb,
+em+.gmb,
+.sl+.gmb {
+	margin-left: 8px;
+}
+
+html.apple_client-panel .wqx+.gmb,
+html.apple_client-panel em+.gmb,
+html.apple_client-panel .sl+.gmb {
+	margin-left: 2px;
+}
+
+a+.gmb::before {
+	content: " ";
+}
+
+/*例句*/
+.ex-sent {
+	color: #303336;
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ex-sent {
+		color: hsl(180, 8%, 69%);
+	}
+}
+
+.ex-sent+br {
+	display: none;
+}
+
+.num+.def-item>.block>.gmb~.ex-sent {
+	margin-left: 0px;
+}
+
+html.apple_client-panel .num+.def-item>.block>.gmb~.ex-sent {
+	margin-left: -20px;
+}
+
+.num+.def-item .letter+.block>.gmb~.ex-sent {
+	margin-left: -4px;
+}
+
+html.apple_client-panel .num+.def-item .letter+.block>.gmb~.ex-sent {
+	margin-left: -4px;
+}
+
+.num+.def-item .letter+.block>.sub-num+.gmb~.ex-sent {
+	margin-left: 35px;
+}
+
+html.apple_client-panel .num+.def-item .letter+.block>.sub-num+.gmb~.ex-sent {
+	margin-left: 25px;
+}
+
+/* [()] */
+em+.blt {
+	margin-left: 8px;
+}
+
+.blt {
+	margin-right: 8px;
+}
+
+/* 例句 */
+.ex-sent::before {
+	content: "\2022";
+	color: #3692A4;
+	width: 0.5em;
+	padding-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ex-sent::before {
+		color: #808080;
+	}
+}
+
+html.apple_client-panel .ex-sent::before {
+	margin-right: 0px;
+	position: relative;
+	padding-right: 8px;
+}
+
+.auc .ex-sent {
+	margin-left: -23px;
+}
+
+html.apple_client-panel .auc .ex-sent {
+	margin-left: 0px;
+}
+
+.ex-sent .prons {
+	margin: 0;
+}
+
+.ex-sent a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.ex-sent a:hover {
+	text-decoration: underline;
+	text-decoration-color: #303336;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ex-sent a:hover {
+		text-decoration-color: #abb7b7;
+	}
+}
+
+/* 片語 */
+.dro {
+	color: #303336;
+}
+
+.dro .bnu {
+	color: #212529;
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.dro {
+		color: #d4d4d4;
+	}
+
+	.dro .bnu {
+		color: #6BB9F0;
+	}
+}
+
+.dro .bnu::after {
+	content: " ";
+}
+
+.dro .bnu+.rhj {
+	padding: 0;
+	line-height: 1em;
+}
+
+.dro .bnu+.rhj .def-item .block {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5em;
+	position: relative;
+	top: 0;
+}
+
+.dro .bnu+.rhj .def-item .block .ex-sent {
+	line-height: 1.5em;
+}
+
+.dro .bnu+.rhj p.ohk {
+	position: relative;
+	top: -0.4em;
+	line-height: 1.5em;
+	margin-bottom: 0;
+}
+
+/* 相關字 */
+.other-words {
+	padding: 0.5em 0em;
+	color: #225f73;
+}
+
+@media (prefers-color-scheme: dark) {
+	.other-words {
+		color: #bfbfbf;
+	}
+}
+
+.other-words .bnu {
+	color: #303336;
+	font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+	.other-words .bnu {
+		color: #ffffff;
+	}
+}
+
+.other-words .bnu::after {
+	content: " ";
+}
+
+.other-words .ex-sent+.bnu::before {
+	content: "\a";
+	white-space: pre;
+	line-height: 1em;
+}
+
+.other-words br {
+	display: block;
+	content: "";
+	margin: 10px 0 0;
+}
+
+.other-words em+em::after {
+	content: " ";
+}
+
+.other-words .prons {
+	margin-left: 10px;
+}
+
+.other-words .block {
+	margin-top: 0.3em;
+}
+
+.other-words .ex-sent {
+	line-height: 1.7em;
+}
+
+.eqc {
+	color: #265667;
+	font-size: 1.3em;
+	font-weight: 700;
+	margin-top: 1em;
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (prefers-color-scheme: dark) {
+	.eqc {
+		color: #67809f;
+	}
+}
+
+.viz i {
+	color: #4a7d95;
+}
+
+@media (prefers-color-scheme: dark) {
+	.viz i {
+		color: #89c4f4;
+	}
+}
+
+.kbm,
+.alt,
+.anp,
+.nvt,
+.plu,
+.dl0,
+.wdn,
+.hca {
+	padding: 0.05em 0em;
+}
+
+html.apple_client-panel .kbm,
+html.apple_client-panel .alt,
+html.apple_client-panel .anp,
+html.apple_client-panel .nvt,
+html.apple_client-panel .plu,
+html.apple_client-panel .dl0,
+html.apple_client-panel .wdn,
+html.apple_client-panel .hca {
+	padding: 0.1em 0em;
+}
+
+/* 距離下一個entry */
+.hca,
+.oi3,
+.srx {
+	margin-top: 1.5em;
+}
+
+html.apple_client-panel .srx {
+	margin-top: 1em;
+}
+
+/* 更多例句 */
+.ohk {
+	color: #303336;
+	display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ohk {
+		color: #bfbfbf;
+	}
+}
+
+html.apple_client-panel .ohk {
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+.jza .ohk,
+.jza .yx4 {
+	line-height: 1.5em;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.jza .ohk::before,
+.jza .yx4::before {
+	content: "\a\2022";
+	color: #3692A4;
+	width: 0.5em;
+	padding-right: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.jza .ohk::before,
+	.jza .yx4::before {
+		color: #888888;
+	}
+}
+
+html.apple_client-panel .jza .ohk::before,
+html.apple_client-panel .jza .yx4::before {
+	font-size: 1.1em;
+	line-height: 1.2em;
+	padding-right: 10px;
+}
+
+.jza .ohk cite,
+.jza .yx4 cite {
+	margin-top: 5px;
+}
+
+.ohk em+a {
+	margin-left: 10px;
+}
+
+.d9d {
+	line-height: 1.8em;
+	margin: 0;
+}
+
+html.apple_client-panel .d9d {
+	line-height: 1.5em;
+}
+
+
+/* 同義字 */
+.oaf {
+	color: #375c71;
+	font-weight: 700;
+	margin-top: -0.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.oaf {
+		color: #4b77be;
+	}
+}
+
+html.apple_client-panel .oaf {
+	margin-top: -0.2em;
+}
+
+/* 反義字 */
+.ugp {
+	color: #375c71;
+	font-weight: 700;
+	margin-top: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ugp {
+		color: #4b77be;
+	}
+}
+
+html.apple_client-panel .ugp {
+	margin: 0;
+}
+
+.link {
+	margin-top: 1.5em;
+}
+
+em.yvp~em.yvp::before {
+	content: " ";
+}
+
+em.yvp::after {
+	content: " ";
+}
+
+.hca .num,
+.oi3 .num {
+	line-height: 1.45em;
+	margin-right: 10px;
+}
+
+html.apple_client-panel .hca .num,
+html.apple_client-panel .oi3 .num {
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+.hca .def-item,
+.oi3 .def-item {
+	padding-left: 0;
+	line-height: 1.4em;
+}
+
+html.apple_client-panel .hca .def-item,
+html.apple_client-panel .oi3 .def-item {
+	padding-left: 0;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+.sl {
+	font-style: italic;
+}
+
+html.apple_client-panel .sl {
+	margin-left: 4px;
+}
+
+div.sl {
+	margin-top: 0.5em;
+}
+
+.sl+.letter::before {
+	content: "\a";
+	white-space: pre;
+	line-height: 0;
+	margin: 0;
+}
+
+/* especially */
+em.wqx {
+	font-style: italic;
+}
+
+/* — compare */
+.dx-jump::before {
+	content: "\a";
+	white-space: pre;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.dx-jump::after {
+	content: " ";
+}
+
+.idu {
+	color: #225f73;
+	border-left: 2px solid #225f73;
+	padding-left: 15px;
+	margin-left: 30px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.idu {
+		color: #d3d3d3;
+		border-left: 2px solid #d3d3d3;
+	}
+}
