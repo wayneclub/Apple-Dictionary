@@ -38,7 +38,8 @@ RM			=	/bin/rm
 all:
 	tar zxvf $(DICT_SRC_PATH).zip
 	"$(DICT_BUILD_TOOL_BIN)/build_dict.sh" $(DICT_BUILD_OPTS) $(DICT_NAME) $(DICT_SRC_PATH) $(CSS_PATH) $(PLIST_PATH)
-	tar zxvf OTHER_RESOURCES --strip-components 1 -C $(DICT_DEV_KIT_OBJ_DIR)/$(DICT_NAME).dictionary/Contents/
+	tar zxvf $(OTHER_RESOURCES) --strip-components 1 -C $(DICT_DEV_KIT_OBJ_DIR)/$(DICT_NAME).dictionary/Contents/
+	$(RM) -rf DICT_SRC_PATH
 	@echo "Done."
 
 
