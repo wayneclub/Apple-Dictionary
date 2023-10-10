@@ -38,7 +38,13 @@ This project provides online dictionaries for convenient offline use, expands Ap
 
 5. Download OtherResources from [releases](https://github.com/wayneclub/Apple-Dictionary/releases) and put it in the corresponding folder
 
-6. Build and install.
+6. Open dictionary folder (Drag folder to terminal)
+
+    ```bash
+    cd /Users/xxx/Apple-Dictionary/Cambridge\ English-Chinese\ Dictionary
+    ```
+
+7. Build and install.
 
     ```bash
     make; make install; make clean;
@@ -48,3 +54,4 @@ This project provides online dictionaries for convenient offline use, expands Ap
 
 1. Download the dictionary, and unzip the file.
 2. Put it into the Dictionaries folder on Mac. (~/Library/Dictionaries)
+3. Open `Dictionary.app`, add custom dictionary in `Preferences`.
