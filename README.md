@@ -20,9 +20,9 @@ This project provides online dictionaries for convenient offline use, expands Ap
 
 ## Build
 
-1. Download **Dictionary Development Kit** from [Additional Tools for Xcode](https://developer.apple.com/download/all/)
+1. Download **Dictionary Development Kit** from [Additional Tools for Xcode](https://developer.apple.com/download/all/) or [Additional_Tools_for_Xcode.dmg](https://github.com/wayneclub/Apple-Dictionary/releases/download/v1.0.0/Additional_Tools_for_Xcode_15.dmg)
 
-2. Open `.dmg`
+2. Open `Additional_Tools_for_Xcode.dmg`
 
 3. Create `Extras` folder in `/Library/Developer/`
 
