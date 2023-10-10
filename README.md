@@ -5,7 +5,8 @@
 **NON-COMMERCIAL USE ONLY**
 
 ## DESCRIPTION
-This project provides online dictionaries for convenient offline use, expands Apple's dictionary, and facilitates simultaneous searches across multiple dictionaries.
+
+This project provides online dictionaries for convenient offline use, expands Apple's dictionary, and facilitates simultaneous searches across multiple dictionaries. Support dark mode and offline prounciation.
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
@@ -17,6 +18,31 @@ This project provides online dictionaries for convenient offline use, expands Ap
 | Merriam-Webster's Learner's Dictionary | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mDxO0Z6BKMXOiUk8?e=kXayDd) |
 | Merriam-Webster's Thesaurus            | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mDuxACUgzFc_5ioz?e=IXG30X) |
 
+## Build
+
+1. Download **Dictionary Development Kit** from [Additional Tools for Xcode](https://developer.apple.com/download/all/)
+
+2. Open `.dmg`
+
+3. Create `Extras` folder in `/Library/Developer/`
+
+    ```bash
+    sudo  mkdir /Library/Developer/Extras
+    ```
+
+4. Copy `Dictionary Development Kit` into `/Library/Developer/Extras`
+
+    ```bash
+    sudo cp -r /Volumes/Additional\ Tools/Utilities/Dictionary\ Development\ Kit /Library/Developer/Extras
+    ```
+
+5. Download OtherResources from [releases](https://github.com/wayneclub/Apple-Dictionary/releases) and put it in the corresponding folder
+
+6. Build and install.
+
+    ```bash
+    make; make install; make clean;
+    ```
 
 ## USAGE
 
