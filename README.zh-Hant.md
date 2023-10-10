@@ -10,13 +10,13 @@
 
 | 名稱                                   | 語言        | 連結 |
 | -------------------------------------- | --------------- | ------ |
-| 劍橋英漢雙解辭典                   | 繁體中文-英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0jwygFPsOI-Ebo6i0?e=Uhrdnw) |
-| 牛津英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0jw2GNGjvFocBHAGS?e=V23eVy) |
-| 牛津高階英語辭典   | 英式英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0mD4pbJoyUtuvi3tD?e=BAIwJF) |
-| 牛津英語搭配語辭典          | 英式英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0mDrH2o-RKD056uYz?e=nhcwvD) |
-| 韋氏英語詞典           | 美式英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0mD3mp7XrG-ZJfBlI?e=5PPSnR) |
-| 韋氏高階英語詞典 | 美式英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0mDxO0Z6BKMXOiUk8?e=kXayDd) |
-| 韋氏同義詞詞典            | 美式英文 | [下載](https://1drv.ms/u/s!AnPUuUreZmM0mDuxACUgzFc_5ioz?e=IXG30X) |
+| 劍橋英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津高階英語辭典   | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津英語搭配語辭典 | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏英語詞典      | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏高階英語詞典  | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏同義詞詞典   | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 
 ## 使用方式

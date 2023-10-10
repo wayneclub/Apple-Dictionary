@@ -10,13 +10,13 @@ This project provides online dictionaries for convenient offline use, expands Ap
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
-| Cambridge Dictionary                   | English-Chinese | [Download](https://1drv.ms/u/s!AnPUuUreZmM0jwygFPsOI-Ebo6i0?e=Uhrdnw) |
-| Oxford Advanced Learner's Dictionary   | English-Chinese | [Download](https://1drv.ms/u/s!AnPUuUreZmM0jw2GNGjvFocBHAGS?e=V23eVy) |
-| Oxford Advanced Learner's Dictionary   | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mD4pbJoyUtuvi3tD?e=BAIwJF) |
-| Oxford Collocation Dictionary          | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mDrH2o-RKD056uYz?e=nhcwvD) |
-| Merriam-Webster's Dictionary           | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mD3mp7XrG-ZJfBlI?e=5PPSnR) |
-| Merriam-Webster's Learner's Dictionary | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mDxO0Z6BKMXOiUk8?e=kXayDd) |
-| Merriam-Webster's Thesaurus            | English-English | [Download](https://1drv.ms/u/s!AnPUuUreZmM0mDuxACUgzFc_5ioz?e=IXG30X) |
+| Cambridge Dictionary                   | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Oxford Advanced Learner's Dictionary   | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Oxford Advanced Learner's Dictionary   | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Oxford Collocation Dictionary          | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Merriam-Webster's Dictionary           | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Merriam-Webster's Learner's Dictionary | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Merriam-Webster's Thesaurus            | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 ## Build
 
