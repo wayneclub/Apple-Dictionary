@@ -6,7 +6,7 @@
 
 ## DESCRIPTION
 
-This project provides online dictionaries for convenient offline use, expands Apple's dictionary, and facilitates simultaneous searches across multiple dictionaries. Support dark mode and offline prounciation.
+This project provides online dictionaries for convenient offline use, expands Apple's dictionary, and facilitates simultaneous searches across multiple dictionaries. Support dark mode and offline pronunciation.
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
