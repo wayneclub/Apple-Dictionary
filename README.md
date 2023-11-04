@@ -1,12 +1,12 @@
 # Apple Dictionary
 
-[![zh](https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-blue)](https://github.com/wayneclub/Apple-Dictionary/blob/main/README.zh-Hant.md)
+[![zh](https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-blue)](https://github.com/wayneclub/Apple-Dictionary/blob/main/README.zh-Hant.md) [![Sonoma](https://img.shields.io/badge/macOS-Sonoma-orange)](https://www.apple.com/macos/sonoma/)
 
 **NON-COMMERCIAL USE ONLY**
 
 ## DESCRIPTION
 
-This project provides online dictionaries for convenient offline use, expands Apple's dictionary, and facilitates simultaneous searches across multiple dictionaries. Support dark mode and offline pronunciation.
+This project provides online dictionaries for convenient offline use, expands [Apple's dictionary](https://support.apple.com/guide/dictionary/welcome/mac), and facilitates simultaneous searches across multiple dictionaries. Support ***Dark Mode***, ***offline pronunciation***, and right-click popup.
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |

@@ -1,6 +1,6 @@
 # 蘋果辭典
 
-[![en](https://img.shields.io/badge/lang-English-blue)](https://github.com/wayneclub/Apple-Dictionary/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-English-blue)](https://github.com/wayneclub/Apple-Dictionary/blob/main/README.md) [![Sonoma](https://img.shields.io/badge/macOS-Sonoma-orange)](https://www.apple.com/macos/sonoma/)
 
 **禁止營利使用，只限學術使用，版權皆屬原辭典公司所有**
 
