@@ -22,6 +22,7 @@
 
 1. 下載需要的詞典並解壓縮。
 2. 將下載的檔案放入系統Dictionaries的資料夾。 (~/Library/Dictionaries)
+3. 打開 `辭典.app` 在 `設定` 加入新增的辭典。
 
 ## 範例
 

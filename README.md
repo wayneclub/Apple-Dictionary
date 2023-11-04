@@ -18,6 +18,12 @@ This project provides online dictionaries for convenient offline use, expands [A
 | Merriam-Webster's Learner's Dictionary | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 | [Merriam-Webster's Thesaurus](https://www.merriam-webster.com/thesaurus) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
+## USAGE
+
+1. Download the dictionary, and unzip the file.
+2. Put it into the Dictionaries folder on Mac. (~/Library/Dictionaries)
+3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`.
+
 ## Build
 
 1. Download **Dictionary Development Kit** from [Additional Tools for Xcode](https://developer.apple.com/download/all/) or [Additional_Tools_for_Xcode.dmg](https://github.com/wayneclub/Apple-Dictionary/releases/download/v1.0.0/Additional_Tools_for_Xcode_15.dmg)
@@ -49,12 +55,6 @@ This project provides online dictionaries for convenient offline use, expands [A
     ```bash
     make; make install; make clean;
     ```
-
-## USAGE
-
-1. Download the dictionary, and unzip the file.
-2. Put it into the Dictionaries folder on Mac. (~/Library/Dictionaries)
-3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`.
 
 ## EXAMPLE
 
