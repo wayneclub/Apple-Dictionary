@@ -62,4 +62,10 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 | Normal             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Cambridge English-Chinese Dictionary_normal](images/Cambridge%20English-Chinese%20Dictionary/normal.png) | ![Cambridge English-Chinese Dictionary_dark mode](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png)
+![Cambridge English-Chinese Dictionary_normal](Cambridge%20English-Chinese%20Dictionary/normal.png) | ![Cambridge English-Chinese Dictionary_dark mode](Cambridge%20English-Chinese%20Dictionary/dark_mode.png)
+![Oxford Advanced Learner's English-Chinese Dictionary_normal](Oxford%20Advanced%20Learner%27s%20English-Chinese%20Dictionary/normal.png) | ![Oxford Advanced Learner's English-Chinese Dictionary_dark mode](Oxford%20Advanced%20Learner%27s%20English-Chinese%20Dictionary/dark_mode.png)
+![Oxford Advanced Learner's Dictionary_normal](Oxford%20Advanced%20Learner%27s%20Dictionary/normal.png) | ![Oxford Advanced Learner's Dictionary_dark mode](Oxford%20Advanced%20Learner%27s%20Dictionary/dark_mode.png)
+![Oxford Collocation Dictionary_normal](Oxford%20Collocation%20Dictionary/normal.png) | ![Oxford Collocation Dictionary_dark mode](Oxford%20Collocation%20Dictionary/dark_mode.png)
+![Merriam-Webster's Dictionary_normal](Merriam-Webster%27s%20Dictionary/normal.png) | ![Merriam-Webster's Dictionary_dark mode](Merriam-Webster%27s%20Dictionary/dark_mode.png)
+![Merriam-Webster's Learner's Dictionary_normal](Merriam-Webster%27s%20Learner%27s%20Dictionary/normal.png) | ![Merriam-Webster's Learner's Dictionary_dark mode](Merriam-Webster%27s%20Learner%27s%20Dictionary/dark_mode.png)
+![Merriam-Webster's Thesaurus_normal](Merriam-Webster%27s%20Thesaurus/normal.png) | ![Merriam-Webster's Thesaurus_dark mode](Merriam-Webster%27s%20Thesaurus/dark_mode.png)
