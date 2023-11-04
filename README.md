@@ -62,4 +62,4 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 | Normal             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Cambridge English-Chinese Dictionary_normal](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png) | ![Cambridge English-Chinese Dictionary_dark mode](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png)
+![Cambridge English-Chinese Dictionary_normal](images/Cambridge%20English-Chinese%20Dictionary/normal.png) | ![Cambridge English-Chinese Dictionary_dark mode](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png)
