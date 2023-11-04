@@ -38,7 +38,7 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 5. Download OtherResources from [releases](https://github.com/wayneclub/Apple-Dictionary/releases) and put it in the corresponding folder
 
-6. Open dictionary folder (Drag folder to terminal)
+6. Open the dictionary folder (Drag the folder into the terminal)
 
     ```bash
     cd /Users/xxx/Apple-Dictionary/Cambridge\ English-Chinese\ Dictionary
@@ -54,4 +54,12 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 1. Download the dictionary, and unzip the file.
 2. Put it into the Dictionaries folder on Mac. (~/Library/Dictionaries)
-3. Open `Dictionary.app`, add custom dictionary in `Preferences`.
+3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`.
+
+## EXAMPLE
+
+- Cambridge Dictionary
+
+| Normal             |  Dark Mode |
+:-------------------------:|:-------------------------:
+![Cambridge English-Chinese Dictionary_normal](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png) | ![Cambridge English-Chinese Dictionary_dark mode](images/Cambridge%20English-Chinese%20Dictionary/dark_mode.png)

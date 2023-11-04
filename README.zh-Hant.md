@@ -8,16 +8,15 @@
 
 將線上辭典提取，方便離線使用，擴充蘋果辭典，方便一次查詢多本辭典
 
-| 名稱                                   | 語言        | 連結 |
+|                 名稱                    |       語言      |  連結  |
 | -------------------------------------- | --------------- | ------ |
 | 劍橋英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 | 牛津英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 牛津高階英語辭典   | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 牛津英語搭配語辭典 | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏英語詞典      | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏高階英語詞典  | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏同義詞詞典   | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-
+| 牛津高階英語辭典   | 英式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津英語搭配語辭典 | 英式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏英語詞典      | 美式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏高階英語詞典   | 美式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏同義詞詞典    | 美式英文       | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 ## 使用方式
 
