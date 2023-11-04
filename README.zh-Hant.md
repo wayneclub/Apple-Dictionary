@@ -10,13 +10,13 @@
 
 |                 名稱                    |       語言      |  連結  |
 | -------------------------------------- | --------------- | ------ |
-| 劍橋英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 牛津英漢雙解辭典   | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 牛津高階英語辭典   | 英式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 牛津英語搭配語辭典 | 英式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏英語詞典      | 美式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏高階英語詞典   | 美式英文      | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| 韋氏同義詞詞典    | 美式英文       | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [劍橋英漢雙解辭典](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/) | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津英漢雙解辭典 | 繁體中文-英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [牛津高階英語辭典](https://www.oxfordlearnersdictionaries.com/) | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 牛津英語搭配語辭典 | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [韋氏英語詞典](https://www.merriam-webster.com/) | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| 韋氏高階英語詞典 | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [韋氏同義詞詞典](https://www.merriam-webster.com/thesaurus) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 ## 使用方式
 

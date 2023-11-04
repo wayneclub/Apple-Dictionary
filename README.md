@@ -10,13 +10,13 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
-| Cambridge Dictionary                   | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| Oxford Advanced Learner's Dictionary   | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| Oxford Advanced Learner's Dictionary   | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| Oxford Collocation Dictionary          | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| Merriam-Webster's Dictionary           | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/) | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Oxford Advanced Learner's Dictionary | English-Chinese | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [Oxford Advanced Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| Oxford Collocation Dictionary | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [Merriam-Webster's Dictionary](https://www.merriam-webster.com/) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 | Merriam-Webster's Learner's Dictionary | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| Merriam-Webster's Thesaurus            | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [Merriam-Webster's Thesaurus](https://www.merriam-webster.com/thesaurus) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 ## Build
 
