@@ -67,3 +67,10 @@ This project provides online dictionaries for convenient offline use, expands [A
 ![Merriam-Webster's Dictionary_normal](Merriam-Webster%27s%20Dictionary/normal.png) | ![Merriam-Webster's Dictionary_dark mode](Merriam-Webster%27s%20Dictionary/dark_mode.png)
 ![Merriam-Webster's Learner's Dictionary_normal](Merriam-Webster%27s%20Learner%27s%20Dictionary/normal.png) | ![Merriam-Webster's Learner's Dictionary_dark mode](Merriam-Webster%27s%20Learner%27s%20Dictionary/dark_mode.png)
 ![Merriam-Webster's Thesaurus_normal](Merriam-Webster%27s%20Thesaurus/normal.png) | ![Merriam-Webster's Thesaurus_dark mode](Merriam-Webster%27s%20Thesaurus/dark_mode.png)
+
+## Support & Contributions
+
+- Please ⭐️ this repository if this project helped you!
+- Contributions of any kind are welcome!
+
+ <a href="https://www.buymeacoffee.com/wayneclub" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
