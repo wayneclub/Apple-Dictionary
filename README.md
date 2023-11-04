@@ -6,7 +6,7 @@
 
 ## DESCRIPTION
 
-This project provides online dictionaries for convenient offline use, expands [Apple's dictionary](https://support.apple.com/guide/dictionary/welcome/mac), and facilitates simultaneous searches across multiple dictionaries. Support ***Dark Mode***, ***offline pronunciation***, and right-click popup.
+This project provides online dictionaries for convenient offline use, expands [Apple's dictionary](https://support.apple.com/guide/dictionary/welcome/mac), and facilitates simultaneous searches across multiple dictionaries. Support ***dark mode***, ***offline pronunciation***, and **right-click popup**.
 
 | Name                                   | Language        | Link |
 | -------------------------------------- | --------------- | ------ |
@@ -22,23 +22,23 @@ This project provides online dictionaries for convenient offline use, expands [A
 
 1. Download **Dictionary Development Kit** from [Additional Tools for Xcode](https://developer.apple.com/download/all/) or [Additional_Tools_for_Xcode.dmg](https://github.com/wayneclub/Apple-Dictionary/releases/download/v1.0.0/Additional_Tools_for_Xcode_15.dmg)
 
-2. Open `Additional_Tools_for_Xcode.dmg`
+2. Open `Additional_Tools_for_Xcode.dmg`.
 
-3. Create `Extras` folder in `/Library/Developer/`
+3. Create the `Extras` folder in `/Library/Developer/`.
 
     ```bash
     sudo  mkdir /Library/Developer/Extras
     ```
 
-4. Copy `Dictionary Development Kit` into `/Library/Developer/Extras`
+4. Copy `Dictionary Development Kit` into `/Library/Developer/Extras`.
 
     ```bash
     sudo cp -r /Volumes/Additional\ Tools/Utilities/Dictionary\ Development\ Kit /Library/Developer/Extras
     ```
 
-5. Download OtherResources from [releases](https://github.com/wayneclub/Apple-Dictionary/releases) and put it in the corresponding folder
+5. Download `OtherResources` from [releases](https://github.com/wayneclub/Apple-Dictionary/releases) and put it in the corresponding folder.
 
-6. Open the dictionary folder (Drag the folder into the terminal)
+6. Open the dictionary folder. (Drag the folder into the terminal)
 
     ```bash
     cd /Users/xxx/Apple-Dictionary/Cambridge\ English-Chinese\ Dictionary
@@ -57,8 +57,6 @@ This project provides online dictionaries for convenient offline use, expands [A
 3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`.
 
 ## EXAMPLE
-
-- Cambridge Dictionary
 
 | Normal             |  Dark Mode |
 :-------------------------:|:-------------------------:

@@ -6,7 +6,7 @@
 
 ## 說明
 
-將線上辭典提取，方便離線使用，擴充蘋果辭典，方便一次查詢多本辭典
+提取線上辭典，方便離線使用，擴充蘋果辭典，方便一次查詢多本辭典。支援**深色模式**、**離線播放語音**和**快速查詢**。
 
 |                 名稱                    |       語言      |  連結  |
 | -------------------------------------- | --------------- | ------ |
@@ -22,3 +22,15 @@
 
 1. 下載需要的詞典並解壓縮。
 2. 將下載的檔案放入系統Dictionaries的資料夾。 (~/Library/Dictionaries)
+
+## 範例
+
+| 淺色             |  深色 |
+:-------------------------:|:-------------------------:
+![Cambridge English-Chinese Dictionary_normal](Cambridge%20English-Chinese%20Dictionary/normal.png) | ![Cambridge English-Chinese Dictionary_dark mode](Cambridge%20English-Chinese%20Dictionary/dark_mode.png)
+![Oxford Advanced Learner's English-Chinese Dictionary_normal](Oxford%20Advanced%20Learner%27s%20English-Chinese%20Dictionary/normal.png) | ![Oxford Advanced Learner's English-Chinese Dictionary_dark mode](Oxford%20Advanced%20Learner%27s%20English-Chinese%20Dictionary/dark_mode.png)
+![Oxford Advanced Learner's Dictionary_normal](Oxford%20Advanced%20Learner%27s%20Dictionary/normal.png) | ![Oxford Advanced Learner's Dictionary_dark mode](Oxford%20Advanced%20Learner%27s%20Dictionary/dark_mode.png)
+![Oxford Collocation Dictionary_normal](Oxford%20Collocation%20Dictionary/normal.png) | ![Oxford Collocation Dictionary_dark mode](Oxford%20Collocation%20Dictionary/dark_mode.png)
+![Merriam-Webster's Dictionary_normal](Merriam-Webster%27s%20Dictionary/normal.png) | ![Merriam-Webster's Dictionary_dark mode](Merriam-Webster%27s%20Dictionary/dark_mode.png)
+![Merriam-Webster's Learner's Dictionary_normal](Merriam-Webster%27s%20Learner%27s%20Dictionary/normal.png) | ![Merriam-Webster's Learner's Dictionary_dark mode](Merriam-Webster%27s%20Learner%27s%20Dictionary/dark_mode.png)
+![Merriam-Webster's Thesaurus_normal](Merriam-Webster%27s%20Thesaurus/normal.png) | ![Merriam-Webster's Thesaurus_dark mode](Merriam-Webster%27s%20Thesaurus/dark_mode.png)
