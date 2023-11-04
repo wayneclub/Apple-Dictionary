@@ -6,7 +6,7 @@
 
 ## 說明
 
-提取線上辭典，方便離線使用，擴充蘋果辭典，方便一次查詢多本辭典。支援**深色模式**、**離線播放語音**和**快速查詢**。
+提取線上辭典，方便離線使用，擴充蘋果辭典，方便一次查詢多本辭典。支援**深色模式**、**離線播放語音**和**右鍵快速查詢**。
 
 |                 名稱                    |       語言      |  連結  |
 | -------------------------------------- | --------------- | ------ |
@@ -16,7 +16,7 @@
 | 牛津英語搭配語辭典 | 英式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 | [韋氏英語詞典](https://www.merriam-webster.com/) | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 | 韋氏高階英語詞典 | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
-| [韋氏同義詞詞典](https://www.merriam-webster.com/thesaurus) | English-English | [Download](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
+| [韋氏同義詞詞典](https://www.merriam-webster.com/thesaurus) | English-English | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) | 美式英文 | [下載](https://1drv.ms/f/s!AnPUuUreZmM0jwtbZhCZvp0wP2dY?e=sSQZTq) |
 
 ## 使用方式
 
