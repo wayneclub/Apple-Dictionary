@@ -21,8 +21,8 @@ This project provides online dictionaries for convenient offline use, expands [A
 ## USAGE
 
 1. Download the dictionary, and unzip the file.
-2. Put it into the Dictionaries folder on Mac. (~/Library/Dictionaries)
-3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`.
+2. Put it into the Dictionaries folder on Mac. (Dictionary App > File > Open Dictionaries Folder)
+3. Open `Dictionary.app`, and add a custom dictionary in `Preferences`. (Dictionary > Settings...)
 
 ## Build
 
